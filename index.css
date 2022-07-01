@@ -51,7 +51,9 @@ h1.head{
   align-items: center;
   animation: transitionIn ease-in 1s forwards;
   transition-delay: 2s;
+  height: 100%;
 }
+
 .page1 img{
     position: relative;
     top: 0;
@@ -163,6 +165,7 @@ h1.head{
 }
 .page4 .row img{
   width: 16vw;
+  pointer-events: all;
 }
 .page4 .column{
   display: flex;
@@ -201,6 +204,7 @@ h1.head{
   width: auto;
   margin-top: 5.5vw;
   margin-left: 8vw;
+  pointer-events: all;
 }
 .page5 .gif .next{
   margin-left: 3vw;
